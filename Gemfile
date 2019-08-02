@@ -1,2 +1,7 @@
 source :rubygems
-gem 'rulers'  # Your gem name
+gem 'rulers', path: '../rulers'
+
+group :development do
+  gem 'rerun'
+  gem 'listen'
+end
